@@ -4,7 +4,7 @@ function swap(arr, p1, p2) {
   arr[p1] = arr[p2]
   arr[p2] = temp
   return arr
-}
+} 
 
 function insertSort(arr) {
   for (var i = 0; i < arr.length; i++) {
